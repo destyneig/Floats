@@ -1,0 +1,52 @@
+html {
+    /*hue, saturation, aperture, lightness*/
+    background-color: hsla(40, 80%, 75%, 0.5);
+    padding-left: 30px;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+    font-style:italic;
+    font-weight: normal;
+}
+
+img {
+    width: 400px;
+}
+
+p {
+    font-size: 1.4em;
+    text-indent: 1.1em;
+}
+
+p:first-of-type {
+    text-indent: 0;
+}
+
+p:first-of-type::first-line {
+    font-variant: small-caps;
+}
+
+.starry_night_img {
+    float:left;
+    margin-right: 10px;
+}
+
+.left_clear {
+    clear: left;
+}
+
+.sunflowers_img {
+    float:right;
+    margin-left: 10px;
+}

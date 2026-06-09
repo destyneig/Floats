@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        /*CSS Positions*/
+        /*Static, relative, absolute, sticky, fixed*/
+
+        img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        #container {
+            border: 2px solid black;
+            background-color: blanchedalmond;
+            height: 8000px;
+
+            /*need to be defined on the parent container so that other
+            position properties can be applied on the child elements*/
+            position: relative;
+        }
+
+        #venus {
+            position: absolute;
+            top: 100px;
+            left: 200px;
+        }
+
+        #earth {
+            position: sticky;
+            top: 300px;
+        }
+
+        #container2 {
+            background-color: aquamarine;
+            height: 5000px;
+        }
+
+        #mercury {
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="images/mars.jpeg" id="mars" alt="Mars">
+        <img src="images/venus.jpeg" id="venus" alt="Venus">
+        <img src="images/earth.jpeg" id="earth" alt="Earth">
+        <img src="images/mercury.jpeg" id="mercury" alt="Mercury">
+    </div>
+    
+    <div id="container2">
+
+    </div>
+</body>
+</html>

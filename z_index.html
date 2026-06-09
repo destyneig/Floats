@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            border: 3px solid gray;
+            text-align: center;
+            margin: 15px;
+        }
+        #blue {
+            background-color: rgb(106, 106, 169);
+            z-index: 12;
+            position: relative;
+        }
+        #red {
+            background-color: rgb(233, 110, 110);
+            position: relative;
+            top: -100px;
+            left: 100px;
+            z-index: 9;
+        }
+        #orange {
+            height: 100px;
+            width: 200px;
+            background-color: rgb(237, 175, 59);
+            position: absolute;
+            z-index: 19;
+        }
+    </style>
+</head>
+<body>
+    <div id="blue">
+        <h3>Blue</h3>
+    </div>
+
+    <div id="red">
+       <h3>Red</h3> 
+       <div id="orange">
+            Orange
+        </div>
+        
+    </div>
+</body>
+</html>

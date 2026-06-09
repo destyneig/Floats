@@ -1,0 +1,59 @@
+html {
+    background-color: teal;
+    padding-left: 30px;
+}
+
+h2, h3 _{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+  /*text-align: center;*/
+  height: 500px;
+  width: 1070px;
+  margin-left: 220px;
+  margin-top: 0.5px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#author_intro {
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    height: 500px;
+    
+    
+}
+
+#thestartunnel {
+    border: 1px solid lavenderblush;
+    background-color: lavenderblush;
+    height: 500px;
+    
+    
+}
+
+.sci_fi_image {
+    width: 1000px;
+    margin-left: 220px;
+    display: block;
+}
+

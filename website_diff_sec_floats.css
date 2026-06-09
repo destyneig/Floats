@@ -1,0 +1,69 @@
+h1, ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 0.8em Arial, sans-serif;
+}
+
+#container {
+    width: 950px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    height: 30px; 
+    border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+nav ul li a:hover, nav ul li a.selected {
+     background: #000;
+     color: #fff;
+}
+
+section {
+    /* width: 700px; */
+    width: 680px;
+    float: left;
+    padding: 10px;
+    min-height: 200px;
+}
+
+aside {
+    float: left;
+    /*padding: 10px;*/
+    border-right: 1px solid #aaa;
+    background: #aaa;
+    width: 20px;
+    height: 40px;
+}
+
+footer {
+   background: #000;
+   color: #fff;
+   padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
